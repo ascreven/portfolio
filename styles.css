@@ -1,6 +1,7 @@
 .jumbotron {
   background-image: url('images/mountains.jpeg');
-  background-position: center;
+  /*background-position: center;*/
+  background-position: 45% 52%;
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;

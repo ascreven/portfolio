@@ -234,7 +234,8 @@ th {
     background: #fff !important; }
 
   .navbar {
-    display: none; }
+    display: none;
+  }
 
   .btn > .caret,
   .dropup > .btn > .caret {
@@ -3475,7 +3476,7 @@ tbody.collapse.in {
     .nav > li > a {
       position: relative;
       display: block;
-      padding: 10px 15px; }
+      padding: 10px 0px; }
       .nav > li > a:hover, .nav > li > a:focus {
         text-decoration: none;
       }
@@ -3584,7 +3585,7 @@ tbody.collapse.in {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   border: 1px solid transparent; }
   .navbar:before, .navbar:after {
     content: " ";
@@ -4193,7 +4194,9 @@ a.badge:hover, a.badge:focus {
   cursor: pointer; }
 
 .jumbotron {
-  padding: 30px 15px;
+  /*padding-bottom: 0px;*/
+  padding: 30px 0px;
+  min-height: 100px;
   margin-bottom: 30px;
   color: inherit;
   background-color: #D5B1A2; }
@@ -4212,7 +4215,8 @@ a.badge:hover, a.badge:focus {
     max-width: 100%; }
   @media screen and (min-width: 768px) {
     .jumbotron {
-      padding: 48px 0; }
+      padding-bottom: 0px;
+      padding-top: 48px 0; }
       .container .jumbotron, .container-fluid .jumbotron {
         padding-left: 60px;
         padding-right: 60px; }
